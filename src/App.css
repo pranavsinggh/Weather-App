@@ -1,0 +1,24 @@
+.tagLine {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#madeByPranav {
+    color: white;
+    font-weight: 500;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: tagline 10s  infinite alternate;
+    border-right: 2px solid ; 
+}
+
+@keyframes tagline {
+      0% {
+          width: 0ch;
+      }
+      50% {
+          width: 19ch;
+      }
+}
